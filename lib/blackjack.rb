@@ -36,7 +36,7 @@ def hit?(card_total)
     #don't deal a new card 
     input = get_user_input
   elsif input == 'h'
-  deal_card
+  card_total += deal_card
 else
   invalud_command
   prompt_user
